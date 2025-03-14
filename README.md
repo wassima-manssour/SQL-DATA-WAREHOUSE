@@ -31,7 +31,25 @@ The purpose of this project is to build a modern data warehouse using **SQL Serv
 
 ---
 ## 🏗️ Data Architecture
+The data architecture of this project follows a Medallian three-layered approach (Bronze, Silver, Gold) to ensure efficient data processing, integration, and analytical reporting. The architecture is designed using SQL Server and structured to enhance data quality and accessibility.
 ![Data Architecture](imgs/data_architecture.jpg)
+
+
+The data layers are as follows:
+![Data Layers](imgs/data_layers.jpg)
+
+### **Bronze Layer (Raw Data Ingestion)**: 
+  - Stores unprocessed data **as-in**, ingested directly from source systems (ERP & CRM) as CSV files.
+  - The data is imported into a SQL Server Database with no transformation to maintain raw integrity.
+### **Silver Layer(Data Integration & Cleansing)**:
+  - Performs data cleansing, standardization, and normalization to enhance data quality and consistency.
+  - Adds metadata columns (e.g dwh_created_date)
+  - Ensures data is reliable, accurate, and ready for analytical modeling.
+### **Gold Layer (Analytical Data Model)**:
+  - Contains business-ready data structured into a Star Schema Model optimized for reporting and analytics.
+  - Fact and dimension tables are created to support high-performance querying and efficient data retrieval.
+  - Ready for visualization tools like Power BI to generate insightful reports.
+
 ---
 ## 📌 Features
 
