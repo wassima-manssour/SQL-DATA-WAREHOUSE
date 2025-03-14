@@ -35,7 +35,7 @@ The data architecture of this project follows a Medallian three-layered approach
 ![Data Architecture](imgs/data_architecture.jpg)
 
 
-The data layers are as follows:
+The data layers are described as follows:
 ![Data Layers](imgs/data_layers.jpg)
 
 ### **Bronze Layer (Raw Data Ingestion)**: 
@@ -68,21 +68,21 @@ The data layers are as follows:
 - Project initialization with naming conventions, Git repo setup, database & schema creation.
 
 ### 🥉 Bronze Layer (Raw Data Ingestion)
-
+![bronze_process](imgs/bronze_process.PNG)
 - Ingest data from raw files (ERP & CRM systems).
 - Define tables using DDL scripts.
 - Develop ETL scripts to import raw data into SQL Server.
 - Document data flow.
 
 ### 🥈 Silver Layer (Data Cleaning & Transformation)
-
+![silver_process](imgs/silver_process.PNG)
 - Data Cleaning: Remove duplicates, handle missing values, standardize formats.
 - Data Integration: Combine cleaned data from ERP & CRM sources.
 - Load scripts & stored procedures to automate transformation processes.
 - Document data flow & transformation logic.
 
 ### 🥇 Gold Layer (Analytical Data Model)
-
+![gold_process](imgs/gold_process.PNG)
 - Data Modeling: Create Star Schema with dimension & fact tables.
 - Design analytical model to support business queries.
 - Document data model design and provide sample queries.
