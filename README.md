@@ -31,7 +31,7 @@ The purpose of this project is to build a modern data warehouse using **SQL Serv
 
 ---
 ## 🏗️ Data Architecture
-
+![Data Architecture](imgs/data_architecture.jpg)
 ---
 ## 📌 Features
 
