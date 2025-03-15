@@ -1,6 +1,6 @@
 # Bronze Layer (Raw Data Storage)
 The Bronze Layer focuses on ingesting raw data from the source systems (ERP & CRM) and loading it into the Data Warehouse without applying any transformations. The goal is to store the data as-is to ensure data integrity and traceability.
-![bronze_process](imgs/bronze_process.PNG)
+![bronze_process](../../imgs/bronze_process.PNG)
 
 ## 📌 Technical Details
 
@@ -22,4 +22,4 @@ The Bronze Layer focuses on ingesting raw data from the source systems (ERP & CR
 - **BronzeLayer.md (This file):** Layer-specific documentation.
 
 ## Data Flow
-![bronze_data_flow](img/bronze_data_flow)
+![bronze_data_flow](../../imgs/bronze_data_flow)
