@@ -22,4 +22,4 @@ The Bronze Layer focuses on ingesting raw data from the source systems (ERP & CR
 - **BronzeLayer.md (This file):** Layer-specific documentation.
 
 ## Data Flow
-![bronze_data_flow](../../imgs/bronze_data_flow)
+![bronze_data_flow](../../imgs/bronze_data_flow.jpg)
