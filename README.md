@@ -35,7 +35,7 @@ The data architecture of this project follows a Medallian three-layered approach
 ![Data Architecture](imgs/data_architecture.jpg)
 
 
-The data layers are described as follows:
+**The data layers are described as follows:**
 ![Data Layers](imgs/data_layers.jpg)
 
 ### **Bronze Layer (Raw Data Ingestion)**: 
@@ -49,6 +49,14 @@ The data layers are described as follows:
   - Contains business-ready data structured into a Star Schema Model optimized for reporting and analytics.
   - Fact and dimension tables are created to support high-performance querying and efficient data retrieval.
   - Ready for visualization tools like Power BI to generate insightful reports.
+
+---
+## 📈 Entity-Relationship Diagram (ERD)
+
+The tables from both ERP and CRM systems are linked together through common keys such as Customer IDs and Product IDs. The integration process ensures data consistency and accuracy before proceeding to the modeling phase.
+The following diagram illustrates the relationships between the tables within the Data Warehouse:
+
+![Data Architecture](imgs/data_integration.jpg)
 
 ---
 ## 📌 Features
