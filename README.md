@@ -61,7 +61,7 @@ The data layers are described as follows:
 ---
 ## 📖 Workflow Breakdown
 
-### ✅ Planning & Initialization
+### Planning & Initialization
 
 - Project Planning using **Notion**.
 - Architecture design using **Draw.io**.
