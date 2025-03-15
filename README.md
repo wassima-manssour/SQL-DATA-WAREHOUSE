@@ -30,6 +30,16 @@ The purpose of this project is to build a modern data warehouse using **SQL Serv
 - **Documentation:** Provide clear and thorough documentation of the data model to assist both business stakeholders and analytics teams.
 
 ---
+## 📌 Features
+
+- **Data Integration:** Combines multiple sources (ERP & CRM) into a unified data model.
+- **ETL Pipeline:** Structured approach with Bronze, Silver, and Gold layers for data ingestion, cleaning, and modeling.
+- **Data Modeling:** Star Schema with well-defined dimensions and facts.
+- **Documentation:** Comprehensive explanations for each layer, including data flow diagrams and SQL scripts.
+
+
+
+---
 ## 🏗️ Data Architecture
 The data architecture of this project follows a Medallian three-layered approach (Bronze, Silver, Gold) to ensure efficient data processing, integration, and analytical reporting. The architecture is designed using SQL Server and structured to enhance data quality and accessibility.
 ![Data Architecture](imgs/data_architecture.jpg)
@@ -56,15 +66,7 @@ The data architecture of this project follows a Medallian three-layered approach
 The tables from both ERP and CRM systems are linked together through common keys such as Customer IDs and Product IDs. The integration process ensures data consistency and accuracy before proceeding to the modeling phase.
 The following diagram illustrates the relationships between the tables within the Data Warehouse:
 
-![Data Architecture](imgs/data_integration.jpg)
-
----
-## 📌 Features
-
-- **Data Integration:** Combines multiple sources (ERP & CRM) into a unified data model.
-- **ETL Pipeline:** Structured approach with Bronze, Silver, and Gold layers for data ingestion, cleaning, and modeling.
-- **Data Modeling:** Star Schema with well-defined dimensions and facts.
-- **Documentation:** Comprehensive explanations for each layer, including data flow diagrams and SQL scripts.
+![Data integration](imgs/data_integration.jpg)
 
 ---
 ## 📖 Workflow Breakdown
