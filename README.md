@@ -107,3 +107,6 @@ The following diagram illustrates the relationships between the tables within th
 ---
 ## 📁 Repository Structure
 
+
+---
+Special thanks to Baraa (https://datawithbaraa.substack.com/) for the extensive explanations and insights that greatly contributed to the completion of this end-to-end data warehouse project.
