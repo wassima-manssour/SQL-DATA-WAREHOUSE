@@ -109,4 +109,15 @@ The following diagram illustrates the relationships between the tables within th
 
 
 ---
+## About me
+
+Hi, I'm Wassima Manssour, a data analyst and PhD student focusing on AI applications in healthcare, specifically in neurodegenerative diseases. With a passion for data science, I work on projects that explore the intersection of machine learning, deep learning, and healthcare. I also run Wassima Academy, where I share educational resources on data science and AI to help students in their academic journeys
+
+Feel free to check out my work, and thank you for exploring this project!
+I'd love to stay in touch! You can connect with me on the following platforms:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wassima-manssour/)
+[![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@wassimaacademy1343)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.wassimamanssour.com/)
+---
 Special thanks to Baraa (https://datawithbaraa.substack.com/) for the extensive explanations and insights that greatly contributed to the completion of this end-to-end data warehouse project.
