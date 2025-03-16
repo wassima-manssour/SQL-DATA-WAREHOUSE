@@ -105,10 +105,6 @@ The following diagram illustrates the relationships between the tables within th
 - **Git & GitHub:** Version control & documentation.
 
 ---
-## 📁 Repository Structure
-
-
----
 ## About me
 
 Hi, I'm Wassima Manssour, a data analyst and PhD student focusing on AI applications in healthcare, specifically in neurodegenerative diseases. With a passion for data science, I work on projects that explore the intersection of machine learning, deep learning, and healthcare. I also run Wassima Academy, where I share educational resources on data science and AI to help students in their academic journeys
