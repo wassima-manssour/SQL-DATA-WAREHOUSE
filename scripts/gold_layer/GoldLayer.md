@@ -1,6 +1,6 @@
 # Gold Layer (Data Modeling & Aggregation)
 The Gold Layer is the final layer of the Data Warehouse, designed to support analytical reporting and data visualization. It involves building a Star Schema to facilitate efficient querying and reporting for decision-making purpose.
-
+![bronze_process](../../imgs/gold_process.PNG)
 
 ## 📌 Technical Details
 
