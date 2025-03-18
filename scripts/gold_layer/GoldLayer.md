@@ -20,4 +20,4 @@ The Gold Layer is the final layer of the Data Warehouse, designed to support ana
 **2__ddl_views_for_gold_layer.sql:** Defines the DDL views for the gold layer, creating structured views for easy access to aggregated and transformed data.
 
 ## Data Flow
-![bronze_data_flow](../../imgs/gold_data_flow.jpg)
+![gold_data_flow](../../imgs/data_flow2.jpg)
