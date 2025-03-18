@@ -14,7 +14,7 @@ The Silver Layer focuses on transforming raw data from the Bronze Layer to ensur
 - **Data Enrichment:**
     - Adding new attributes from calculations (e.g., `Total_Sales = Quantity * Unit_Price`).
 
-### 📁 Files
+## 📁 Files
 
 - **00__Explore_bronze_layerdata.sql:** Explore the raw data structure to identify inconsistencies and potential issues for further investigation.
 - **00__ddl_silver_layer.sql:** Defines tables for the cleaned and standardized data in the Silver Layer.
