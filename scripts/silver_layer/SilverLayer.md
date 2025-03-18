@@ -25,4 +25,4 @@ The Silver Layer focuses on transforming raw data from the Bronze Layer to ensur
 - **SilverLayer.md (This file):** Documentation providing details and context for the Silver Layer process and structure.
 
 ## Data Flow
-![bronze_data_flow](../../imgs/silver_data_flow.jpg)
+![silver_data_flow](../../imgs/silver_data_flow.jpg)
