@@ -1,11 +1,20 @@
 # Sales Data Warehouse Development Using SQL Server: An End-to-End ETL & Data Modeling Solution
 _Building a modern data warehouse with SQL Server, including ETL processes, data modelling and analytics._
 
+
+## Table of Contents
+1. [Overview](#Overview)
+2. [Project Objectives](#Project Objectives)
+3. [Links to Layer-Specific README Files](#links-to-layer-specific-readme-files)
+4. [Getting Started](#getting-started)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+
+
 ## 🔍 Overview
 This repository contains a practical implementation of a Data Warehouse project designed to consolidate sales data from ERP and CRM systems, enabling analytical reporting and informed decision-making. Built using **SQL Server**, this project demonstrates skills in **Data Architecture Design, ETL Development, Data Modeling, and Documentation**. 
 
 The project involves:
-
 - Extracting and loading raw data using **SQL Server**.
 - Processing and transforming data using **T-SQL (Transact-SQL)**.
 - Storing cleaned and integrated data in a structured **Star Schema Model**.
@@ -14,15 +23,12 @@ The project involves:
 - Managing workflow and documentation using **Notion & Git**.
 
 The data pipeline follows the Bronze, Silver, and Gold architecture pattern, ensuring data quality and consistency throughout the process.
-
 ---
+
 ## 🎯 Project Objectives
 ### Objective
-
 The purpose of this project is to build a modern data warehouse using **SQL Server** to integrate sales data from various sources, enabling comprehensive analytical reporting and data-driven decision-making.
-
 ### Specifications
-
 - **Data Sources:** Load data from two source systems: ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management ) provided as CSV files.
 - **Data Quality:** Ensure data accuracy and consistency by cleaning and addressing quality issues prior to analysis.
 - **Integration:** Merge both sources into a cohesive, user-friendly data model, using a Star Schema, optimized for efficient analytical queries.
@@ -31,7 +37,6 @@ The purpose of this project is to build a modern data warehouse using **SQL Serv
 
 ---
 ## 📌 Features
-
 - **Data Integration:** Combines multiple sources (ERP & CRM) into a unified data model.
 - **ETL Pipeline:** Structured approach with Bronze, Silver, and Gold layers for data ingestion, cleaning, and modeling.
 - **Data Modeling:** Star Schema with well-defined dimensions and facts.
@@ -59,17 +64,14 @@ The data architecture of this project follows a Medallian three-layered approach
 
 ---
 ## 📈 Entity-Relationship Diagram (ERD)
-
 The tables from both ERP and CRM systems are linked together through common keys such as Customer IDs and Product IDs. The integration process ensures data consistency and accuracy before proceeding to the modeling phase.
 The following diagram illustrates the relationships between the tables within the Data Warehouse:
-
 ![Data integration](imgs/data_integration.jpg)
 
 ---
 ## 📖 Workflow Breakdown
 
 ### Planning & Initialization
-
 - Project Planning using **Notion**.
 - Architecture design using **Draw.io**.
 - Project initialization with naming conventions, Git repo setup, database & schema creation.
@@ -99,7 +101,6 @@ Check: [Siver Layer README](scripts/silver_layer/SilverLayer.md)
 Check: [Gold Layer README](scripts/gold_layer/GoldLayer.md)
 
 ## 💡 Technologies & Tools Used
-
 - **SQL Server:** Data storage, ETL processes, data modeling.
 - **Draw.io:** Architecture diagrams.
 - **Notion:** Project planning & task management.
