@@ -1,16 +1,6 @@
 # Sales Data Warehouse Development Using SQL Server: An End-to-End ETL & Data Modeling Solution
 _Building a modern data warehouse with SQL Server, including ETL processes, data modelling and analytics._
 
-
-## Table of Contents
-1. [Overview](#Overview)
-2. [Project Objectives](#Project Objectives)
-3. [Links to Layer-Specific README Files](#links-to-layer-specific-readme-files)
-4. [Getting Started](#getting-started)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-
-
 ## 🔍 Overview
 This repository contains a practical implementation of a Data Warehouse project designed to consolidate sales data from ERP and CRM systems, enabling analytical reporting and informed decision-making. Built using **SQL Server**, this project demonstrates skills in **Data Architecture Design, ETL Development, Data Modeling, and Documentation**. 
 
