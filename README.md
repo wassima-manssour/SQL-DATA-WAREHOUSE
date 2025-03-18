@@ -37,13 +37,10 @@ The purpose of this project is to build a modern data warehouse using **SQL Serv
 - **Data Modeling:** Star Schema with well-defined dimensions and facts.
 - **Documentation:** Comprehensive explanations for each layer, including data flow diagrams and SQL scripts.
 
-
-
 ---
 ## 🏗️ Data Architecture
 The data architecture of this project follows a Medallian three-layered approach (Bronze, Silver, Gold) to ensure efficient data processing, integration, and analytical reporting. The architecture is designed using SQL Server and structured to enhance data quality and accessibility.
 ![Data Architecture](imgs/data_architecture.jpg)
-
 
 **The data layers are described as follows:**
 ![Data Layers](imgs/data_layers.jpg)
@@ -84,18 +81,22 @@ The following diagram illustrates the relationships between the tables within th
 - Develop ETL scripts to import raw data into SQL Server.
 - Document data flow.
 
+Check: [Bronze Layer README](scripts/bronze_layer/BronzeLayer.md)
+
 ### 🥈 Silver Layer (Data Cleaning & Transformation)
 ![silver_process](imgs/silver_process.PNG)
 - Data Cleaning: Remove duplicates, handle missing values, standardize formats.
 - Data Integration: Combine cleaned data from ERP & CRM sources.
 - Load scripts & stored procedures to automate transformation processes.
 - Document data flow & transformation logic.
+Check: [Siver Layer README](scripts/silver_layer/SilverLayer.md)
 
 ### 🥇 Gold Layer (Analytical Data Model)
 ![gold_process](imgs/gold_process.PNG)
 - Data Modeling: Create Star Schema with dimension & fact tables.
 - Design analytical model to support business queries.
 - Document data model design and provide sample queries.
+Check: [Gold Layer README](scripts/gold_layer/GoldLayer.md)
 
 ## 💡 Technologies & Tools Used
 
